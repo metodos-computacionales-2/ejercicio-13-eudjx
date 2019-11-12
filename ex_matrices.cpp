@@ -53,6 +53,8 @@ double A[20][20];
 double B[20][20];
 double C[20][20];
 int filasA, colsA, filasB, colsB;
+cout.precision(16);
+cout.setf(std::ios::scientific);
 cout<<"\t"<<"Matriz A:"<<endl;
 cout<<"Ingrese filas de la matriz A:"<<endl;
 cin>>filasA;
